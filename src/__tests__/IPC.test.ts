@@ -5,8 +5,8 @@ describe("IPC", () => {
     const ipc = new IPC({
       nameAPI: "test",
       validSendChannel: {
-        test: (window, event, message) => {
-          console.log("test");
+        test: () => {
+          // console.log("test");
         },
       },
       validReceiveChannel: ["test"],
