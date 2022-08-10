@@ -1,6 +1,4 @@
-const myCustomFunction = (name: string):string => `Hello ${name}`;
-function ciao(name: string): string {
-    return `Ciao ${name}`;
-}
+import IPC from "./IPC/IPC";
+import generateContextBridge from "./IPC/contextBridge";
 
-export { myCustomFunction, ciao};
+export { IPC, generateContextBridge };

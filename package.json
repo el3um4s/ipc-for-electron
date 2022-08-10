@@ -1,7 +1,7 @@
 {
-  "name": "@el3um4s/typescript-npm-package-starter",
-  "version": "0.0.12",
-  "description": "Typescript NPM Package Starter",
+  "name": "@el3um4s/ipc-for-electron",
+  "version": "0.0.1",
+  "description": "A package to simplify the communication between renderer and node js in Electron applications",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
   "scripts": {
@@ -19,7 +19,7 @@
   },
   "repository": {
     "type": "git",
-    "url": "git+https://github.com/el3um4s/typescript-npm-package-starter.git"
+    "url": "git+https://github.com/el3um4s/ipc-for-electron.git"
   },
   "files": [
     "lib/**/*"
@@ -27,8 +27,13 @@
   "keywords": [
     "typescript",
     "npm",
-    "template",
-    "ts"
+    "electron",
+    "electronjs",
+    "node",
+    "nodejs",
+    "renderer",
+    "ipc",
+    "inter-process communication"
   ],
   "author": "Samuele C. De Tomasi",
   "license": "MIT",
@@ -43,16 +48,17 @@
     }
   ],
   "bugs": {
-    "url": "https://github.com/el3um4s/typescript-npm-package-starter/issues"
+    "url": "https://github.com/el3um4s/ipc-for-electron/issues"
   },
-  "homepage": "https://github.com/el3um4s/typescript-npm-package-starter#readme",
+  "homepage": "https://github.com/el3um4s/ipc-for-electron#readme",
   "devDependencies": {
     "@types/jest": "^28.1.6",
-    "@types/node": "^18.0.6",
-    "@typescript-eslint/eslint-plugin": "^5.30.7",
-    "@typescript-eslint/parser": "^5.30.7",
+    "@types/node": "^18.6.5",
+    "@typescript-eslint/eslint-plugin": "^5.33.0",
+    "@typescript-eslint/parser": "^5.33.0",
     "ansi-regex": ">=6.0.1",
-    "eslint": "^8.20.0",
+    "electron": "^20.0.1",
+    "eslint": "^8.21.0",
     "eslint-config-prettier": "^8.5.0",
     "eslint-config-standard": "^17.0.0",
     "eslint-plugin-import": "^2.26.0",
