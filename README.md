@@ -1,4 +1,4 @@
-# IPC for Electron (NOT YET TESTED)
+# IPC for Electron
 
 A package to simplify the communication between renderer and node js in Electron applications
 
