@@ -23,13 +23,13 @@ import { IPC, generateContextBridge } from "@el3um4s/ipc-for-electron";
 Use IPC to create a new API for the renderer process:
 
 ```ts
-import IPC from "@el3um4s/ipc-for-electron";
+import { IPC, SendChannels } from "@el3um4s/ipc-for-electron";
 import { BrowserWindow } from "electron";
 
 const nameAPI = "helloWorld";
 
 // to Main
-const validSendChannel = {
+const validSendChannel: SendChannels = {
   requestHello: requestHello,
 };
 

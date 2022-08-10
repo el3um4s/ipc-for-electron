@@ -1,4 +1,6 @@
 import IPC from "./IPC/IPC";
 import generateContextBridge from "./IPC/contextBridge";
 
-export { IPC, generateContextBridge };
+import { APIChannels, SendChannels } from "./IPC/channelsInterface";
+
+export { IPC, generateContextBridge, APIChannels, SendChannels };
