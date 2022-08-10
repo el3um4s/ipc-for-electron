@@ -1,4 +1,4 @@
-import { IPC, generateContextBridge } from "../index";
+import { IPC } from "../index";
 
 describe("IPC", () => {
   test("Init IPC", () => {
