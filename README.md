@@ -85,3 +85,10 @@ globalThis.ipc.helloWorld.receive("getHello", async (data) => {
   //   Hello John
 });
 ```
+
+### API Prebuilt
+
+**System Info**: _Allow the renderer to get information about the version of Electron, Chrome and NodeJS_
+
+- GitHub: [el3um4s/ipc-for-electron-system-info](https://github.com/el3um4s/ipc-for-electron-system-info)
+- NPM: [@el3um4s/ipc-for-electron-system-info](https://www.npmjs.com/package/@el3um4s/ipc-for-electron-system-info)
