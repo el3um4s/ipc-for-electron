@@ -90,5 +90,10 @@ globalThis.ipc.helloWorld.receive("getHello", async (data) => {
 
 **System Info**: _Allow the renderer to get information about the version of Electron, Chrome and NodeJS_
 
-- GitHub: [el3um4s/ipc-for-electron-system-info](https://github.com/el3um4s/ipc-for-electron-system-info)
-- NPM: [@el3um4s/ipc-for-electron-system-info](https://www.npmjs.com/package/@el3um4s/ipc-for-electron-system-info)
+- GitHub: [el3um4s/ipc-for-electron-system-info](https://github.com/el3um4s/ipc-for-electron-system-info) - [el3um4s/renderer-for-electron-system-info](https://github.com/el3um4s/renderer-for-electron-system-info)
+- NPM: [@el3um4s/ipc-for-electron-system-info](https://www.npmjs.com/package/@el3um4s/ipc-for-electron-system-info) - [@el3um4s/renderer-for-electron-system-info](https://www.npmjs.com/package/@el3um4s/renderer-for-electron-system-info)
+
+**Window Controls**: _Allow the renderer to close, minimize and maximize the window_
+
+- GitHub: [el3um4s/ipc-for-electron-window-controls](https://github.com/el3um4s/ipc-for-electron-window-controls) - [el3um4s/renderer-for-electron-window-controls](https://github.com/el3um4s/renderer-for-electron-window-controls)
+- NPM: [@el3um4s/ipc-for-electron-window-controls](https://www.npmjs.com/package/@el3um4s/ipc-for-electron-window-controls) - [@el3um4s/renderer-for-electron-window-controls](https://www.npmjs.com/package/@el3um4s/renderer-for-electron-window-controls)
