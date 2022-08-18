@@ -97,3 +97,8 @@ globalThis.ipc.helloWorld.receive("getHello", async (data) => {
 
 - GitHub: [el3um4s/ipc-for-electron-window-controls](https://github.com/el3um4s/ipc-for-electron-window-controls) - [el3um4s/renderer-for-electron-window-controls](https://github.com/el3um4s/renderer-for-electron-window-controls)
 - NPM: [@el3um4s/ipc-for-electron-window-controls](https://www.npmjs.com/package/@el3um4s/ipc-for-electron-window-controls) - [@el3um4s/renderer-for-electron-window-controls](https://www.npmjs.com/package/@el3um4s/renderer-for-electron-window-controls)
+
+**Chokidar**: _Allow the renderer to use [chokidar](https://www.npmjs.com/package/chokidar) (Minimal and efficient cross-platform file watching library)_
+
+- GitHub: [el3um4s/ipc-for-electron-chokidar](https://github.com/el3um4s/ipc-for-electron-chokidar) - [el3um4s/renderer-for-electron-chokidar](https://github.com/el3um4s/renderer-for-electron-chokidar)
+- NPM: [@el3um4s/ipc-for-electron-chokidar](https://www.npmjs.com/package/@el3um4s/ipc-for-electron-chokidar) - [@el3um4s/renderer-for-electron-chokidar](https://www.npmjs.com/package/@el3um4s/renderer-for-electron-chokidar)
