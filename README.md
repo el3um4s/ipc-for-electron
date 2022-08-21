@@ -102,3 +102,8 @@ globalThis.ipc.helloWorld.receive("getHello", async (data) => {
 
 - GitHub: [el3um4s/ipc-for-electron-chokidar](https://github.com/el3um4s/ipc-for-electron-chokidar) - [el3um4s/renderer-for-electron-chokidar](https://github.com/el3um4s/renderer-for-electron-chokidar)
 - NPM: [@el3um4s/ipc-for-electron-chokidar](https://www.npmjs.com/package/@el3um4s/ipc-for-electron-chokidar) - [@el3um4s/renderer-for-electron-chokidar](https://www.npmjs.com/package/@el3um4s/renderer-for-electron-chokidar)
+
+**Auto Updater**: _Allow the renderer to update electron apps via [electron-updater](https://www.npmjs.com/package/electron-updater)_
+
+- GitHub: [el3um4s/ipc-for-electron-auto-updater](https://github.com/el3um4s/ipc-for-electron-auto-updater) - [el3um4s/renderer-for-electron-auto-updater](https://github.com/el3um4s/renderer-for-electron-auto-updater)
+- NPM: [@el3um4s/ipc-for-electron-auto-updater](https://www.npmjs.com/package/@el3um4s/ipc-for-electron-auto-updater) - [@el3um4s/renderer-for-electron-auto-updater](https://www.npmjs.com/package/@el3um4s/renderer-for-electron-auto-updater)
