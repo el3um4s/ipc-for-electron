@@ -107,3 +107,9 @@ globalThis.ipc.helloWorld.receive("getHello", async (data) => {
 
 - GitHub: [el3um4s/ipc-for-electron-auto-updater](https://github.com/el3um4s/ipc-for-electron-auto-updater) - [el3um4s/renderer-for-electron-auto-updater](https://github.com/el3um4s/renderer-for-electron-auto-updater)
 - NPM: [@el3um4s/ipc-for-electron-auto-updater](https://www.npmjs.com/package/@el3um4s/ipc-for-electron-auto-updater) - [@el3um4s/renderer-for-electron-auto-updater](https://www.npmjs.com/package/@el3um4s/renderer-for-electron-auto-updater)
+  **Auto Updater**: _Allow the renderer to update electron apps via [electron-updater](https://www.npmjs.com/package/electron-updater)_
+
+**Electron Window**: _Create a window with optional autoupdater and browserview_
+
+- GitHub: [el3um4s/electron-window](https://github.com/el3um4s/electron-window) - [el3um4s/renderer-electron-window-browser-view](https://github.com/el3um4s/renderer-electron-window-browser-view)
+- NPM: [@el3um4s/electron-window](https://www.npmjs.com/package/@el3um4s/electron-window) - [@el3um4s/renderer-electron-window-browser-view](https://www.npmjs.com/package/@el3um4s/renderer-electron-window-browser-view)
