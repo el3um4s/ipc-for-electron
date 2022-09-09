@@ -1,6 +1,6 @@
 {
   "name": "@el3um4s/ipc-for-electron",
-  "version": "1.0.5",
+  "version": "1.0.6",
   "description": "A package to simplify the communication between renderer and node js in Electron applications",
   "main": "lib/index.js",
   "types": "lib/index.d.ts",
